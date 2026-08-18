@@ -1,0 +1,9 @@
+# Local state written by the scripts — never commit real environment output
+.env.*
+/tmp/
+
+# Never commit credentials, no matter how this repo is used downstream
+*.pem
+*.key
+*.crt
+!scripts/**/*.example.*
